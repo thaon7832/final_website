@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 7rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 750px;
+    height: 900px;
+}
+
+.profile-header {
+    font-size: 40px;
+    border-style: solid;
+    margin-bottom: 50px;
+    color: navy;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #4a90e2;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.profile-title {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.profile-bio {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4a90e2;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Layout container */
+  .container {
+    display: flex;
+    width: 1000px;
+    max-width: 95%;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  /* Right-side navigation panel */
+  .tab-nav {
+    width: 40%;
+    background: #f9f9f9;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  
+  /* Tab buttons */
+  .tab-button {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #333;
+  }
+  
+  .tab-button:hover,
+  .tab-button.active {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  /* Tab content (in profile-bio area) */
+  .tab-content {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  
+  /* Optional: Make tab content look like part of layout */
+  .tab-content ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .tab-content li {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect: underline and change color */
+  .tab-content li:hover {
+    text-decoration: underline;
+    color: #4a90e2;
+  }
+  

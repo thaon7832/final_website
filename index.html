@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profile Page</title>
+  <link href="styles/style.css" rel="stylesheet" />
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Left: Profile Info -->
+    <div class="profile-card">
+      <h2 class="profile-header">My Portfolio</h2>
+      <img src="images/self.jpg" alt="Profile Picture" class="profile-img" />
+      <div class="profile-name">Na Thao</div>
+      <div class="profile-title">
+        Computer Science Major Emphasis in Software Engineering
+      </div>
+      <div id="tab-content" class="profile-bio tab-content">
+        Passionate about creating interactive. <br>
+        Coffee lover ☕ and tech enthusiast 💻.<br />
+        Currently student at UW Green Bay.
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="mailto:thaon22@uwgb.edu">Email</a>
+      </div>
+    </div>
+
+    <!-- Right: Tab Navigation -->
+    <div class="tab-nav">
+      <button class="tab-button active" onclick="switchTab('profile')">🧑 About Me</button>
+      <button class="tab-button" onclick="switchTab('portfolio')">📁 Portfolio</button>
+      <button class="tab-button" onclick="switchTab('contact')">📞 Contact</button>
+    </div>
+  </div>
+</body>
+</html>
+
