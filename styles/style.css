@@ -10,7 +10,8 @@ body {
 
 .profile-card {
     background: #fff;
-    padding: 7rem;
+/*     padding: 7rem; */
+    padding: 10rem;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -28,7 +29,7 @@ body {
 }
 
 .profile-img {
-    width: 720px;
+    width: 320px;
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
